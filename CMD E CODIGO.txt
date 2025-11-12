@@ -1,3 +1,12 @@
+cd P:\PROJETO
+streamlit run app.py
+
+
+
+
+
+
+
 # app.py
 import streamlit as st
 import pandas as pd
@@ -10,7 +19,7 @@ from io import BytesIO
 st.set_page_config(page_title="Catálogo - Pronta Entrega", layout="wide")
 
 # ---------- LOGO À ESQUERDA, ACIMA DO TÍTULO ----------
-logo = Image.open("logo.png")
+logo = Image.open(r"P:\PROJETO\logo.png")
 st.markdown(
     """
     <div style="display:flex; align-items:center; justify-content:flex-start; margin-bottom:10px;">
